@@ -1,6 +1,6 @@
 --- Module which provides utils interface for file management on remote host
 --
--- *Dependencies:* none
+-- *Dependencies:* `remote.remote_constants`
 --
 -- *Globals:* none
 -- @module remote.remote_file_utils
