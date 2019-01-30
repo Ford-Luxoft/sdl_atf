@@ -1,8 +1,8 @@
 --- Module which is responsible for formated output into console
 --
--- *Dependencies:* `console`, `config`
+-- *Dependencies:* `console`
 --
--- *Globals:* `console`
+-- *Globals:* `config`
 -- @module format
 -- @copyright [Ford Motor Company](https://smartdevicelink.com/partners/ford/) and [SmartDeviceLink Consortium](https://smartdevicelink.com/consortium/)
 -- @license <https://github.com/smartdevicelink/sdl_core/blob/master/LICENSE>
@@ -11,7 +11,6 @@
 -- @table Format
 local Format = { }
 local console = require('console')
-local config = require('config')
 
 --- Print formated information about test step result into console
 -- @tparam string startCaseTime String representation of time of test step start

@@ -1,0 +1,15 @@
+--- Module which provides ATF base configuration
+--
+-- *Dependencies:* none
+--
+-- *Globals:* none
+-- @copyright [Ford Motor Company](https://smartdevicelink.com/partners/ford/) and [SmartDeviceLink Consortium](https://smartdevicelink.com/consortium/)
+-- @license <https://github.com/smartdevicelink/sdl_core/blob/master/LICENSE>
+
+local config = { }
+--- Flag which defines usage of color for reporting
+--- Define path to SDL binary
+-- Example: "/home/user/sdl_build/bin"
+config.pathToSDL = "/home/developer/sdl/b/5.0.0/p/bin"
+
+return config

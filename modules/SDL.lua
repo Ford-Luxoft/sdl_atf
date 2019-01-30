@@ -1,15 +1,14 @@
 --- The module which is responsible for managing SDL from ATF
 --
--- *Dependencies:* `os`, `sdl_logger`, `config`, `atf.util`
+-- *Dependencies:* `os`, `sdl_logger`, `atf.util`, `ATF`
 --
--- *Globals:* `sleep()`, `CopyFile()`, `CopyInterface()`, `xmlReporter`, `console`, `ATF`
+-- *Globals:* `sleep()`, `CopyFile()`, `CopyInterface()`, `xmlReporter`, `console`, `config`
 -- @module SDL
 -- @copyright [Ford Motor Company](https://smartdevicelink.com/partners/ford/) and [SmartDeviceLink Consortium](https://smartdevicelink.com/consortium/)
 -- @license <https://github.com/smartdevicelink/sdl_core/blob/master/LICENSE>
 
 require('os')
 local sdl_logger = require('sdl_logger')
-local config = require('config')
 local console = require('console')
 local util = require ("atf.util")
 local remote_constants = require('modules/remote/remote_constants')
